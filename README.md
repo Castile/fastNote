@@ -1,0 +1,2 @@
+# fastNote
+idea插件
