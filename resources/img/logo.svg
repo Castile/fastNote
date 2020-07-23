@@ -1,0 +1,16 @@
+<svg width="387" height="370" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="372" width="389" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m320.900643,48.607342l-42.421043,-20.774592c-10.702965,-5.236353 -24.805978,-2.716097 -31.549953,5.624955l-16.720531,20.735828l81.153252,39.714171l16.733719,-20.726203c6.71838,-8.35098 3.511944,-19.349474 -7.195443,-24.574159l0,0zm-235.104019,184.734319l81.157674,39.713763l132.273555,-164.066654l-81.196308,-39.724132l-132.234934,164.077013l0.000013,0.00001zm-12.396819,50.457815l-1.792482,37.302456l42.355968,-17.45585l39.360728,-16.192763l-78.295408,-38.33737l-1.628792,34.683536l0,0l-0.000013,-0.00001z" stroke-width="1.5" stroke="#000" fill="#A4FFFF"/>
+  <ellipse canvas-opacity="1" stroke="#000" ry="183.500003" rx="192.000009" id="svg_2" cy="184.750003" cx="193.250009" stroke-width="2.5" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="336.25" x="127.25" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Create By Zhl</text>
+ </g>
+</svg>

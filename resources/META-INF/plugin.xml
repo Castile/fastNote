@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>cn.hongliang.fastNote.id</id>
+  <name>FastNote</name>
+  <version>1.0</version>
+  <vendor email="zhl396740445@163.com" url="https://hongliangzhu.cn">Castile</vendor>
+
+  <description><![CDATA[
+      This is a notebook for development when you start a project or read source code to record ypur steps, and can generate a md document.<br>
+      <em>MarkDown Doc</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+       version 1.0: Add a note and main function .<br>
+      <em>Only support md doc</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <toolWindow id="fastNote" factoryClass="cn.hongliang.fastNote.window.NoteListWindowFactory" anchor="right" icon="/img/logo.svg"></toolWindow>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="PopUpAction_ID" class="cn.hongliang.fastNote.action.PopUpAction" text="快速笔记" description="记录一下">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
